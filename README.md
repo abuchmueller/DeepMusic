@@ -32,15 +32,15 @@ Below the abstract from the paper.
 
 ## Data
 
-[data_aquisition]:   https://nbviewer.jupyter.org/github/abuchmueller/DeepMusic/blob/master/data_aquisition.ipynb
+[data_acquisition]:   https://nbviewer.jupyter.org/github/abuchmueller/DeepMusic/blob/master/data_acquisition.ipynb
 
-The data used in our models was aquired from [Spotify]. It contains audio features provided by [Echo Nest]. To make authorized calls to the [Spotify Web API] you will need access to a Spotify [developer] account. A guide on how to access can be found [here](https://spotipy.readthedocs.io/en/2.9.0/#getting-started). The approach and used playlists are detailed in the [data_aquisition] notebook. Note however that the playlists change constantly so you will probably be unable to pull exactly the same data.
+The data used in our models was aquired from [Spotify]. It contains audio features provided by [Echo Nest]. To make authorized calls to the [Spotify Web API] you will need access to a Spotify [developer] account. A guide on how to access can be found [here](https://spotipy.readthedocs.io/en/2.9.0/#getting-started). The approach and used playlists are detailed in the [data_acquisition] notebook. Note however that the playlists change constantly so you will probably be unable to pull exactly the same data.
 
 ## Code & Usage
 
 This repository contains the following notebooks:
 
-1. [data_aquisition]: shows how to sample your own song data from [Spotify] with [spotipy].
+1. [data_acquisition]: shows how to sample your own song data from [Spotify] with [spotipy].
 2. [data_prep]: pre-processing of the data for our neural networks. Used to extract timbre values and pitch for each track.
 3. [c1m1]: 1D Convolutional neural network approach using timbre vectors.
 4. [c1m2]: 1D Convolutional neural network approach using pitch vectors.
@@ -57,7 +57,7 @@ Building a genre classifier with Keras can be broken down into three steps.
 
 #### Sampling data & pre-processing into Numpy arrays
 
-This is done in the [data_aquisition] and [data_prep] notebooks. You may skip the last step of the [data_prep] notebook (reducing raw data to Numpy arrays) but note that your raw data can get very large quickly. Our sample of approximately 10.000 tracks has a size of 4GB. By extracting only timbre and pitch vectors and compressing into a .npz file, we were able to cut the size down to 600MB.
+This is done in the [data_acquisition] and [data_prep] notebooks. You may skip the last step of the [data_prep] notebook (reducing raw data to Numpy arrays) but note that your raw data can get very large quickly. Our sample of approximately 10.000 tracks has a size of 4GB. By extracting only timbre and pitch vectors and compressing into a .npz file, we were able to cut the size down to 600MB.
 
 #### Building models
 
