@@ -32,7 +32,7 @@ Below the abstract from the paper.
 
 ## Data
 
-[data_acquisition]:   https://nbviewer.jupyter.org/github/abuchmueller/DeepMusic/blob/master/data_acquisition.ipynb
+[data_acquisition]:   https://nbviewer.jupyter.org/github/abuchmueller/DeepMusic/blob/master/data_acquisiton.ipynb
 
 The data used in our models was aquired from [Spotify]. It contains audio features provided by [Echo Nest]. To make authorized calls to the [Spotify Web API] you will need access to a Spotify [developer] account. A guide on how to access can be found [here](https://spotipy.readthedocs.io/en/2.9.0/#getting-started). The approach and used playlists are detailed in the [data_acquisition] notebook. Note however that the playlists change constantly so you will probably be unable to pull exactly the same data.
 
