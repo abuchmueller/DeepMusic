@@ -10,7 +10,7 @@
 [pandas]: https://pandas.pydata.org/
 [matplotlib]: https://matplotlib.org/
 [scikit-learn]: https://scikit-learn.org/0.21/
-[echonest]: http://the.echonest.com/
+[Echo Nest]: http://the.echonest.com/
 [seaborn]: https://seaborn.pydata.org/
 [spotipy]:  https://spotipy.readthedocs.io/en/2.9.0/
 
