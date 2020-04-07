@@ -14,8 +14,10 @@
 [seaborn]: https://seaborn.pydata.org/
 [spotipy]:  https://spotipy.readthedocs.io/en/2.9.0/
 
+[paper]: https://github.com/abuchmueller/DeepMusic/blob/master/DeepMusic.pdf
+
 This repository provides code for musical genre recognition with convolutional neural networks.
-Below the abstract from the paper.
+Below the abstract from the [paper].
 
 > Music genre recognition is a promising ﬁeld of research in the area of music information retrieval (MIR). Genre classiﬁers have many real world applications, e.g. as a way to automatically tag large data sets suited as inputs to recommender systems. In this paper we propose a way to sample song data with the Spotify API and create a music genre classiﬁer using artiﬁcial neural networks. We compare different feature sets to each other and evaluate their performance and accuracy using confusion matrices and more sophisticated metrics like F1 scores. We show that convolutional neural networks using timbre values perform well on this task and also propose ways to handle class imbalance.
 
