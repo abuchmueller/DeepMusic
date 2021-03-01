@@ -14,12 +14,19 @@
 [seaborn]: https://seaborn.pydata.org/
 [spotipy]:  https://spotipy.readthedocs.io/en/2.9.0/
 
-[paper]: https://github.com/abuchmueller/DeepMusic/blob/master/DeepMusic.pdf
+[paper]: ../blob/master/DeepMusic.pdf
 
-This repository provides code for musical genre recognition with convolutional neural networks.
-Below the abstract from the [paper].
+This repository provides code used for musical genre recognition with convolutional neural networks in Buchmueller, A., Gerloff C. (2020). *Music Genre Classiﬁcation using Artiﬁcial Neural Networks*. The paper has been published in Saefken, B., Silbersdorff, A., & Weisser, C. (Eds.). (2020). *Learning deep*. Universitätsverlag Göttingen, Göttingen, 2020. [doi:10.17875/gup2020-1338](http://dx.doi.org/10.17875/gup2020-1338) as part of a volume on Deep Learning.
+
+Abstract from the [paper]:
 
 > Music genre recognition is a promising ﬁeld of research in the area of music information retrieval (MIR). Genre classiﬁers have many real world applications, e.g. as a way to automatically tag large data sets suited as inputs to recommender systems. In this paper we propose a way to sample song data with the Spotify API and create a music genre classiﬁer using artiﬁcial neural networks. We compare different feature sets to each other and evaluate their performance and accuracy using confusion matrices and more sophisticated metrics like F1 scores. We show that convolutional neural networks using timbre values perform well on this task and also propose ways to handle class imbalance.
+
+Abstract from the [volume](https://univerlag.uni-goettingen.de/bitstream/handle/3/isbn-978-3-86395-462-8/learningdeep.pdf?sequence=1&):
+
+> Artificial intelligence is considered to be one of the most decisive topics in the 21th century. Deep learning algorithms, which are the basis of artificial intelligence applications, are of central interest for researchers but also for students that strive to build up academic knowledge and practical competences in this field.
+The Deep Learning Seminar at the University of Göttingen follows the central notion of the Humboldtian model of higher education and offers graduate students of applied statistics the opportunity to conduct their own research. The quality of the results motivated us to publish the most promising seminar papers in this volume. For the selected papers a full peer review process was conducted.
+The presented contributions cover a broad range of deep learning topics. The articles in the first part of this volume may serve the reader as introduction to deep learning algorithms. Subsequently, research applications allow the reader to gain deep insights into some of the latest developments in the field of artificial intelligence.
 
 ## Packages
 * [Python] 3.7.5
