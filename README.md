@@ -16,7 +16,7 @@
 
 [paper]: ../blob/master/DeepMusic.pdf
 
-This repository provides code used for musical genre recognition with convolutional neural networks in Buchmueller, A., Gerloff C. (2020). *Music Genre Classiﬁcation using Artiﬁcial Neural Networks*. The paper has been published in Saefken, B., Silbersdorff, A., & Weisser, C. (Eds.). (2020). *Learning deep*. Universitätsverlag Göttingen, Göttingen, 2020. [doi:10.17875/gup2020-1338](http://dx.doi.org/10.17875/gup2020-1338) as part of a volume on Deep Learning.
+This repository provides code used for musical genre recognition with artificial neural networks used in Buchmüller, A., Gerloff C. (2020). *Music Genre Classiﬁcation using Artiﬁcial Neural Networks*. The paper has been published in Saefken, B., Silbersdorff, A., & Weisser, C. (Eds.). (2020). *Learning deep*. Universitätsverlag Göttingen, Göttingen, 2020. [doi:10.17875/gup2020-1338](http://dx.doi.org/10.17875/gup2020-1338) as part of a volume on Deep Learning.
 
 Abstract from the [paper]:
 
